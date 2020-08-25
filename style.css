@@ -1,3 +1,44 @@
 body {
-    background-color: rgb(224, 190, 251);
+    background-color: white;
+    font-family: "Buenard";
+    font-size: 14pt;
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(215, 245, 255);
+    padding: 20px;
+}
+
+.education {
+    background: rgb(219, 219, 219);
+    max-width: 60ch;
+    margin: 10px auto;
+    padding: 10px 0px;
+}
+
+.education li {
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.course {
+    background: rgb(186, 211, 220);
+    display: flex;
+    max-width: 60ch;
+    margin: 10px auto;
+    padding: 12px;
+    border-radius: 12px;
+}
+
+.course-thumbnail {
+    display: inline;
+    max-width: 90px;
+    max-height: 90px;
+    margin: 0px 10px 0px 0px;
+}
+
+.course-title {
+    font-size: 1.3em;
+    font-weight: bold;
 }
