@@ -34,7 +34,7 @@ h1 {
 .course-thumbnail {
     display: inline;
     width: 90px;
-    height: 90px;
+    height: auto;
     margin: 0px 10px 0px 0px;
 }
 
