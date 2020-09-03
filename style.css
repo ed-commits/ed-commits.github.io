@@ -40,3 +40,16 @@ h1 {
     display: inline;
     margin: 0px 10px 0px 0px;
 }
+
+.photos {
+    display: flex;
+    flex-direction: column;
+}
+
+.photo {
+    margin: 0 auto;
+}
+
+.photo img {
+    border: 3px solid black;
+}
